@@ -1,2 +1,2 @@
 # chipbear-profile
-Chipbear static content profile
+chipbear static content profile

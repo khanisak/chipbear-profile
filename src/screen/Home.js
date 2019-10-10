@@ -2,7 +2,6 @@ import React from 'react';
 import {
     Container,
     Grid,
-    Typography,
     Hidden
 } from '@material-ui/core';
 import { withStyles } from '@material-ui/styles';
@@ -16,12 +15,12 @@ const products = [{
     urlPlaystore: 'https://play.google.com/store/apps/details?id=dompetmanager.chipbear.com.myapplication&hl=en'
 }, {
     name: 'Kalkulator Finansial',
-    description: 'Financial Calculator is a simple application that can help you to simulate your loan or credit details so that you can make better decisions.',
+    description: 'Kalkulator Finansial is a simple application that can help you to simulate your loan or credit details so you can make better decisions.',
     image: 'https://lh3.googleusercontent.com/mNyxrJTE88tMYBo4MO8vdQcpMq-4xYeodHICm0VLTDY3-4uiRtkGBvm37dGG5Q9U1xDE=s180-rw',
     urlPlaystore: 'https://play.google.com/store/apps/details?id=com.chipbear.kalkulatorfinansial&hl=en'
 }, {
     name: 'Indonesia Kalender Note',
-    description: 'Indonesia Calendar Application that includes public Holiday in Indonesia and Allow you to a make a simple note.',
+    description: 'Indonesia Kalender Note is an application that includes Public Holiday in Indonesia and Allow you to a make a simple note.',
     image: 'https://lh3.googleusercontent.com/lxQ9zoYwc8QPxyAWC3Bs-iRqT2w1ql-5kNc2BbxQy4s8SqUgP1C8SRQn5Lw8_CbjOuY=s180-rw',
     urlPlaystore: 'https://play.google.com/store/apps/details?id=com.chipbear.kalendarInd&hl=en'
 }, {
@@ -31,15 +30,15 @@ const products = [{
     urlPlaystore: 'https://play.google.com/store/apps/details?id=com.chipbear.weelog&hl=en'
 }, {
     name: 'Dongengku',
-    description: 'Dongengku is a simple application that presents you a collection of various fairy tales entertaining and educating stories from various sources. Our collection of stories is suitable for all ages, from children to adults.',
+    description: 'Dongengku is a simple application that provide you a collection of various fairy tales entertaining and educating stories from various sources. Our collection of stories is suitable for all ages, from children to adults.',
     image: 'https://lh3.googleusercontent.com/mJTgQXMCVfGx5JgaMZktGfvInhfRIbOJMoGh8BEPHjomQOoseze45l2P35Hc3KEV-A=s180-rw',
     urlPlaystore: 'https://play.google.com/store/apps/details?id=com.chipbear.android.ceritamotivasi.dongeng&hl=en'
 }, {
     name: 'Motivasiku',
-    description: 'Motivasiku is a simple application that presents you a collection of various motivational and inspirational stories from various sources.',
+    description: 'Motivasiku is a simple application that provide you collection of various motivational and inspirational stories from various sources.',
     image: 'https://lh3.googleusercontent.com/d33MWBkMYHDZlhDy2hyjNtCGWISYjzbCIJVexJK5Gi6p8iITgun_4DE3i_qIdE35JMwz=s180-rw',
     urlPlaystore: 'https://play.google.com/store/apps/details?id=com.chipbear.android.ceritamotivasi&hl=en'
-}]
+}];
 
 class Home extends React.Component {
     render() {
